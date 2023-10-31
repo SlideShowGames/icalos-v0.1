@@ -1,0 +1,13 @@
+{DOCTYPE ICALLU++}
+<.>
+when on __ BIOS("IBS")
+	get.file ical.eso
+	es =: 8B 1A 7C 7F 9E
+
+CreateCMD("BIOS("IBS")")
+	Convert(base.asm)
+	import asm.linking
+		asm.createOS("icalos_v0.1")
+		done creation.
+		
+<,>
